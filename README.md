@@ -1,6 +1,7 @@
 # OrderRequestForm
 Web Presence Assignment
-Take a business function (inventory ordering, payroll processing, customer service, security issue tracking, to do list, etc.) and make the following Web page:
+<br />
+Create a web page for inventory ordering function with these requirements:
 
 A company logo must be on the Web page, floated right, and taking up no more than 25% of the width
 An external cascading style sheet must be used for all formatting, with at least 5 elements, classes, and/or IDs being used
