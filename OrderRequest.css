@@ -1,0 +1,47 @@
+h1 {
+	font-family: courier, arial;
+	color: #696969;
+}
+
+table {
+	margin: auto;
+}
+
+th {
+	font-family: courier, arial;
+	font-size: 20px;
+}
+
+.products td {
+	width: 120px;
+	height: 30px;
+	text-align: center;
+}
+
+.shipinfo td {
+	height: 30px;
+}
+
+.textfield {
+	width: 300px;
+}
+
+.Expedited {
+	font-style: italic;
+}
+
+P {
+	text-align: center;
+}
+
+input:focus {
+	background-color: #D3D3D3;
+}
+
+.submit {
+	font-size: 16px;
+	width: 150px;
+	background-color: #09C;
+	color: #fff;
+	font-weight: bold;
+}

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+	<title>Order Request</title>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" href="OrderRequest.css">
+	<script type="text/javascript" src="OrderRequest.js"></script>
+</head>
+<body>
+	<form name="OrderRequestForm" action="http://www.duq.edu" method="get" onsubmit="return validateORForm()">
+		<h1>Order Request</h1>
+			<table class="products">
+				<tr>
+					<th colspan="5">Products</th>
+				</tr>
+				<tr>
+					<td>Swaddlers</td>
+					<td>Cruisers</td>
+					<td>Baby Dry</td>
+					<td>Easy Up Girls</td>
+					<td>Easy Up Boys</td>
+				</tr>
+				<tr>
+					<td>
+						<input type="radio" name="item">
+					</td>
+					<td>
+						<input type="radio" name="item">
+					</td>
+					<td>
+						<input type="radio" name="item">
+					</td>
+					<td>
+						<input type="radio" name="item">
+					</td>
+					<td>
+						<input type="radio" name="item">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="5">
+						<select name="size">
+							<option selected="selected" disabled="disabled">Please select a product size</option>
+							<option>Size 1</option>
+							<option>Size 2</option>
+							<option>Size 3</option>
+							<option>Size 4</option>
+							<option>Size 5</option>
+						</select>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="5">
+						<select name="quantity">
+							<option selected="selected" disabled="disabled">Please select a quantity number</option>
+							<option>1</option>
+							<option>2</option>
+							<option>3</option>
+						</select>
+					</td>
+				</tr>
+			</table>
+			<br />
+			<table class="shipinfo">
+				<tr>
+					<th colspan="2">Shipping Info</th>
+				</tr>
+				<tr>
+					<td>
+						<label>Last Name:</label>
+					</td>
+					<td>
+						<input type="text" name="lname" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>First Name:</label>
+					</td>
+					<td>
+						<input type="text" name="fname" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Street 1:</label>
+					</td>
+					<td>
+						<input type="text" name="st1" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Street 2:</label>
+					</td>
+					<td>
+						<input type="text" name="st2" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>City:</label>
+					</td>
+					<td>
+						<input type="text" name="city" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>State:</label>
+					</td>
+					<td>
+						<input type="text" name="state" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<label>Zip code:</label>
+					</td>
+					<td>
+						<input type="text" name="zip" class="textfield">
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" class="Expedited">
+						<input type="checkbox" name="Checkbox" />Expedited Shipping request
+					</td>
+				</tr>
+			</table>
+			<p>
+				<input type="submit" name="submit" value="Submit Request" class="submit" />
+			</p>
+	</form>
+</body>
+</html>
