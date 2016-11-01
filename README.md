@@ -12,9 +12,9 @@ Create a web page for inventory ordering function with these requirements:
 7. Use at least three text boxes, at least one of which is numeric (no defaults are to be set)
 8. Use at least one check box
 9. Using JavaScript, validate every field except check boxes so that, upon clicking the submit button:
-   -Text boxes are to be checked to make sure that something is filled in
-   -Text boxes with numeric fields have numbers in them
-   -The user must select something (besides the top row) in the drop down list box
-   -Radio buttons must not default to a checked value, and the user must select one of the radio button choices
+   -Text boxes are to be checked to make sure that something is filled in <br />
+   -Text boxes with numeric fields have numbers in them<br />
+   -The user must select something (besides the top row) in the drop down list box<br />
+   -Radio buttons must not default to a checked value, and the user must select one of the radio button choices<br />
    -When the user clicks Submit, if the data is not correct, a SINGLE textbox must pop up describing all of the errors.
 
